@@ -11,7 +11,7 @@ Then SVC is applied on all 4 datasets with L1 and L2 penalty.<br>
 
 <b> Conclusion after applying LR to all datasets </b><br>
 
-`SVC` have very low `recall` value with all the datasets.Not able to saparate Positive points from negative points.<br>
+`SVC` have very low `recall` value with all the datasets. Not able to separate Positive points from negative points.<br>
 This might be because `SVM` not able to converge to global minima on loss function because of slow convergance.<br>
 `RBF` kernel might work well on this dataset but cannot be applied because of large number of data points.<br>
 
